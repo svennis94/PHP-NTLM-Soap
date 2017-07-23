@@ -1,0 +1,33 @@
+{
+    "name": "sebudesign/php-ntlm-soap",
+    "description": "Composer based package of https://blogs.msdn.microsoft.com/freddyk/2010/01/19/connecting-to-nav-web-services-from-php/",
+    "keywords": ["php", "ntlm", "soap"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Buijsrogge",
+            "email": "sven@sebudesign.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-soap": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SeBuDesign\\NtlmSoap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SeBuDesign\\NtlmSoap\\Tests\\": "tests/"
+        }
+    }
+}
