@@ -1,4 +1,18 @@
+# IDE #
 .idea
 
-composer.phar
+# Composer #
 /vendor/
+composer.lock
+
+# Do not commit certificates #
+*.cert
+*.crt
+*.pem
+*.pub
+
+# Temporary #
+/tmp/
+
+# Environment settings #
+/tests/.env
