@@ -1,0 +1,14 @@
+{
+    "name": "sebudesign/php-ntlm-soap",
+    "description": "Composer based package of https://blogs.msdn.microsoft.com/freddyk/2010/01/19/connecting-to-nav-web-services-from-php/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Buijsrogge",
+            "email": "sven@sebudesign.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
